@@ -120,7 +120,16 @@ The designer
 
 ### Data Elements
   * In REST data is moved from the place its stored to the place its needed or requested for.
-    * This is unlike many other distributed systems where its easier and efficient to move the processing agent (code, stored procedure)
+    * This is unlike many other distributed systems where its easier and efficient to move the processing agent (code, stored procedure, search expression) to the data.
+  * A distributed hypermedia architect has only 3 options:
+    1. Render data at its location and send across a fixed format image
+      * traditional client-server style.
+      * hide true nature of data
+      * client implementation easier
+      * client has restricted/limited function
+      * processing load on server => harder to scale
+    2. Encapsulate data with a rendering engine and send both to recipient
+    3. Send raw data + metadata to recipient, and allow recipient to choose their own rendering engine.
 
 #### Resources and Resource Identifier
 
