@@ -87,7 +87,16 @@ The designer
       5. protect new systems from legacy clients
       6. move infrequently used components to shared intermediary.
       7. improve scalability (eg. LB of a service across multiple n/w & processors)
+      8. Caching at boundary of organizational domain can improve performance
+      9. Implement security policies on data crossing organization boundary (firewalls)
    2. Trade Offs:
       1. Overhead and latency, reducing user perceived performance.
+         * Caching can offset it 
+   3. Uniform interface + Layered system = uniform pipe and filter style
+   4. Intermediatory components can actively transform data because
+      1. Messages are self-descriptive
+      2. Semantics are visible to intermediaries 
+            
 7. Code On Demand
-      1. 
+      1. REST allows to extend the client functionality by allowing it to download and execute code 
+      2. Simplify client, reuse, 
