@@ -161,12 +161,23 @@ The designer
 | control data  | if-modified-since, cache-control |
 
 #### Resources and Resource Identifier
-  * key abstraction 
+  * a key abstraction 
     * a document
     * a image
     * a temporal service (today's temperature, currency value)
     * a collection of other resources
     * a non virtual object (a person)
+  * any concept that might be the target of an author's hypertext reference
+  * its the conceptual mapping to a set of entities, 
+  * its not the entity that corresponds to the mapping at any point in time.
+    > More precisely, a resource R is a temporally varying membership function MR(t), which for time t maps to a set of entities, or values, which are equivalent.
+
+  * the values in the set can be
+    1. Resource representation
+    2. Resource Identifier
+   
+
+    
 
 #### Representation
 
