@@ -6,7 +6,7 @@ title: Introducing REST
 ## Rest
 A hybrid architectural style derived from several network based architectural styles. 
 
-## Perspectives in Architectural design
+## Two Perspectives in Architectural design
 There are 2 common perspectives in architectural design (be it building or software)
 The designer 
 1. starts with nothing.
@@ -22,4 +22,5 @@ The designer
 ### The Null Style
 * Simple an empty set of constraints
 * A system which has no distinguishable boundaries between components.
+
 
