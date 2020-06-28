@@ -44,10 +44,19 @@ The designer
    * Each request from client to server must contain all necessary information.
    * Improves/Adds
      * Visibility
-       * Monitoring systems doesn't need to look beyond a single request datum.
+       * monitoring systems doesn't need to look beyond a single request datum.
      * Scalability
+       * server doesn't have to manage resource usage across requests.
+       * allows the server component to quickly free resources
+       * stateless applications are a prerequisite to auto scaling and immutable infrastructure since any request can be handled by available computing resources
      * Reliability
-       * Easy
+       * easy recovery from partial failure.
+       * stateless applications are a prerequisite to auto scaling and immutable infrastructure since any request can be handled by available computing resources
+     * Design trade-off
+       * decrease network performance 
+       * reduces the server's control over consistent application behavior.
+         *  server's dependent on the correct implementation of semantics across multiple client versions
+   
 4. Cache
    * 
 5. Uniform Interface
