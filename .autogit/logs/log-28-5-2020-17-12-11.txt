@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jun 28 2020 17:12:11 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+* _posts/2020-06-28-introducing-rest.md
+* documentation/post.md
+
+
+Created files:
+* .autogit/logs/log-28-5-2020-17-3-45.txt
+
+
+Deleted files:
+
+
+Renamed files:
