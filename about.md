@@ -14,7 +14,7 @@ title: About
 
 ## About HTTP
 * Hypertext Transfer Protocol
-* > Just one incarnation of REST style!
+* Just one incarnation of REST style!
 
 
 
