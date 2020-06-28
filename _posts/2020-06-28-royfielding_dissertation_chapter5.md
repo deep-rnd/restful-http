@@ -119,5 +119,13 @@ The designer
   * defines the essence of it behavior as a network based application. 
 
 ### Data Elements
+  * In REST data is moved from the place its stored to the place its needed or requested for.
+    * This is unlike many other distributed systems where its easier and efficient to move the processing agent (code, stored procedure)
 
-### 
+#### Resources and Resource Identifier
+
+#### Representation
+
+### Connectors
+
+### Components
