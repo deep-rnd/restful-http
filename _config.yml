@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+title:            RESTFul HTTP
+tagline:          You know, for the web.
+description:      "REST is acronym for REpresentational State Transfer. It is architectural style for distributed hypermedia systems and was first presented by Roy Fielding in 2000 in his famous dissertation."
 url:              https://deep-rnd.github.io
 baseurl:          /restful-http
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
