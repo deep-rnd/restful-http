@@ -143,8 +143,11 @@ The designer
     * REST is a hybrid of all 3
       1. shared understanding of data and meta data
         * REST communicates by sharing a representation of a resource
-        * In a format 
-      2. scope limited to the standard interface
+        * In a format matching one of the evolving set of standard data types (JSON, XML, ATOM)
+        * The data type is selected dynamically, based on
+          1. capability/desire of recipient
+          2. nature of the resource
+      2. Representation hides behind the interface
       3. 
 
 #### Resources and Resource Identifier
