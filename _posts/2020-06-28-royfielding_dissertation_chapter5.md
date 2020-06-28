@@ -123,13 +123,29 @@ The designer
     * This is unlike many other distributed systems where its easier and efficient to move the processing agent (code, stored procedure, search expression) to the data.
   * A distributed hypermedia architect has only 3 options:
     1. Render data at its location and send across a fixed format image
-      * traditional client-server style.
+      * **traditional client-server style.**
       * hide true nature of data
       * client implementation easier
       * client has restricted/limited function
       * processing load on server => harder to scale
     2. Encapsulate data with a rendering engine and send both to recipient
+      * **mobile object style**
+      * hides information
+      * specialized data procession (by the special rendering engine)
+      * limits functionality of client based on rendering capability and what it can anticipate
+      * more data volume
     3. Send raw data + metadata to recipient, and allow recipient to choose their own rendering engine.
+      * light weight sender
+      * scalable sender
+      * less data volume 
+      * no data hiding
+      * sender and recipient should understand the same language
+    * REST is a hybrid of all 3
+      1. shared understanding of data and meta data
+        * REST communicates by sharing a representation of a resource
+        * In a format 
+      2. scope limited to the standard interface
+      3. 
 
 #### Resources and Resource Identifier
 
