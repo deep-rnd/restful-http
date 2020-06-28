@@ -67,5 +67,12 @@ The designer
    * applying the software engineering principle of generality to the component interface
      * overall system architecture is simplified
      * visibility of interactions is improved
+     * Implementations are decoupled from the services (independent evolvability)
+   * Design trade-off
+     * degrades efficiency (information is transferred in a standardized form rather than one which is specific to an application's needs)
+   * _The REST interface is designed to be efficient for large-grain hypermedia data transfer, optimizing for the common case of the Web, but resulting in an interface that is not optimal for other forms of architectural interaction._
+   * In order to obtain a uniform interface, multiple architectural constraints are needed:
+     * REST is defined by four interface constraints
+      1. 
 6. Layered System
 7. Code On Demand
