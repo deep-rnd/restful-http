@@ -98,5 +98,12 @@ The designer
       2. Semantics are visible to intermediaries 
             
 7. Code On Demand
-      1. REST allows to extend the client functionality by allowing it to download and execute code 
-      2. Simplify client, reuse, 
+  * REST allows to extend the client functionality by allowing it to download and execute code 
+  * Advantage 
+    1. Simplify client, reuse, not ro reinvent, not to pre-implement, extendable system after its deployment.
+  * Trade-Off
+    1. Reduces Visibility
+       * Optional component in REST (oxymoron?)
+         * An optional constraint allows us to design an architecture that supports the feature in general,
+         * But with the understanding that it can be disabled within some context. 
+
