@@ -107,3 +107,8 @@ The designer
          * An optional constraint allows us to design an architecture that supports the feature in general,
          * But with the understanding that it can be disabled within some context. 
 
+## Architectural Elements
+
+* REST is an abstraction of elements in a distributed hypermedia space.
+  * “Hypermedia” as a shorthand for “Hypermedia As The Engine Of Application State” (HATEOAS), which is one of the ugliest acronyms I’ve ever seen.
+  * Basically, it means that a REST API provides hyperlinks with each response that link to other related resources.
