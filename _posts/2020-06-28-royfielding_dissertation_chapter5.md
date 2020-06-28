@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Introducing REST
 ---
@@ -77,5 +77,11 @@ The designer
       2. manipulation of resources through representations; 
       3. self-descriptive messages; and, 
       4. hypermedia as the engine of application state.  
+   
 6. Layered System
+   1. Composed of hierarchical layers by constraining component behavior 
+      1. Each component cannot see beyond the immediate layer with which they are interacting.
+      2. Reduce overall complexity
+      3. promote substrate independence
+      4.  
 7. Code On Demand

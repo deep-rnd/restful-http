@@ -18,8 +18,6 @@ REST is acronym for REpresentational State Transfer. It is architectural style f
 
 ## Why REST?
 ### Uniform Interface
-The 
-
 
 
 Cheers!
