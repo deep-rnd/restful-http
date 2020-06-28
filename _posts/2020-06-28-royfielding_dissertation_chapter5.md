@@ -19,8 +19,19 @@ The designer
    2. incrementally identifies and applies constraints to the elements of the system.
    3. restraint and an understanding od system context.
 
-### The Null Style
-* Simple an empty set of constraints
-* A system which has no distinguishable boundaries between components.
 
+* * *
 
+## Deriving REST
+
+1. Null Style
+   * Simple an empty set of constraints
+   * A system which has no distinguishable boundaries between components. 
+2. Client Server
+   * Seperation of Concern
+   * 
+3. Stateless
+4. Cache
+5. Uniform Interface
+6. Layered System
+7. Code On Demand
