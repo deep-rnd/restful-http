@@ -27,11 +27,29 @@ The designer
 1. Null Style
    * Simple an empty set of constraints
    * A system which has no distinguishable boundaries between components. 
+
 2. Client Server
-   * Seperation of Concern
-   * 
+   * Separation of Concern:
+   * Client - 
+     * user interface concerns
+     *  to improve portability of user interface across multiple platforms.
+   * Server - 
+     * data storage concerns
+     * to improve scalability
+   * Each scale independency, supporting internet scale requirements 
+
 3. Stateless
+   * A constraint to client server interaction.
+   * Session state kept entirely on the client side.
+   * Each request from client to server must contain all necessary information.
+   * Improves/Adds
+     * Visibility
+       * Monitoring systems doesn't need to look beyond a single request datum.
+     * Scalability
+     * Reliability
+       * Easy
 4. Cache
+   * 
 5. Uniform Interface
 6. Layered System
 7. Code On Demand
