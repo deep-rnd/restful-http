@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing REST
+title: Dissecting A Dissertation
 ---
 
 ## Rest
@@ -112,3 +112,12 @@ The designer
 * REST is an abstraction of elements in a distributed hypermedia space.
   * “Hypermedia” as a shorthand for “Hypermedia As The Engine Of Application State” (HATEOAS), which is one of the ugliest acronyms I’ve ever seen.
   * Basically, it means that a REST API provides hyperlinks with each response that link to other related resources.
+  * REST ignores component implementation and communication protocol between those components, but considers,
+    1.  Roles of components
+    2.  Constraints on interaction with each other
+    3.  Their interpretation of significant data elements
+  * defines the essence of it behavior as a network based application. 
+
+### Data Elements
+
+### 
