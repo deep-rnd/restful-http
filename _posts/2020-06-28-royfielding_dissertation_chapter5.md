@@ -181,10 +181,9 @@ The designer
     1. provides generality without artificially distinguishing them by type / implementation.
     2. late binding of the reference to a representation => content negotiation.
     3. reference the concept rather than some singular representation of the concept.
+  * REST relies on the author choosing a resource identifier that best fits the nature of the concept being identified.
+  * Naturally, the quality of an identifier is often proportional to the amount of money spent to retain its validity, which leads to broken links as ephemeral (or poorly supported) information moves or disappears over time.
    
-
-    
-
 #### Representation
 
 ### Connectors

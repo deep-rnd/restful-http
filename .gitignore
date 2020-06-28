@@ -1,5 +1,6 @@
-#Build folder
+# folders
 _site/
+.autogit/*
 
 #Files
 Gemfile.lock
