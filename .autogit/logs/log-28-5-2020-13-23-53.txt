@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jun 28 2020 13:23:53 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* documentation/delete.md
+* documentation/get.md
+* documentation/hypermedia.md
+* documentation/patch.md
+* documentation/post.md
+* documentation/put.md
+
+
+Deleted files:
+* documentation/sub-topic.md
+
+
+Renamed files:
+* [object Object]
