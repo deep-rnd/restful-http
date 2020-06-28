@@ -86,5 +86,8 @@ The designer
       4. encapsulate legacy systems
       5. protect new systems from legacy clients
       6. move infrequently used components to shared intermediary.
-      7. 
+      7. improve scalability (eg. LB of a service across multiple n/w & processors)
+   2. Trade Offs:
+      1. Overhead and latency, reducing user perceived performance.
 7. Code On Demand
+      1. 
