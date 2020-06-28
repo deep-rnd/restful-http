@@ -58,7 +58,14 @@ The designer
          *  server's dependent on the correct implementation of semantics across multiple client versions
    
 4. Cache
-   * 
+   * to improve network efficiency, scalability, and user-perceived performance
+   * require that the data within a response to a request be _implicitly or explicitly labeled_ as cacheable or non-cacheable.
+   * decrease reliability if stale data
+  
 5. Uniform Interface
+   * uniform interface between components
+   * applying the software engineering principle of generality to the component interface
+     * overall system architecture is simplified
+     * visibility of interactions is improved
 6. Layered System
 7. Code On Demand
