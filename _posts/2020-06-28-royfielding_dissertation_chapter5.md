@@ -80,8 +80,11 @@ The designer
    
 6. Layered System
    1. Composed of hierarchical layers by constraining component behavior 
-      1. Each component cannot see beyond the immediate layer with which they are interacting.
-      2. Reduce overall complexity
+      1. each component cannot see beyond the immediate layer with which they are interacting.
+      2. reduce overall complexity
       3. promote substrate independence
-      4.  
+      4. encapsulate legacy systems
+      5. protect new systems from legacy clients
+      6. move infrequently used components to shared intermediary.
+      7. 
 7. Code On Demand
