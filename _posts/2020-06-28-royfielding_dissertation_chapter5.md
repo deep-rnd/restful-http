@@ -175,6 +175,12 @@ The designer
   * the values in the set can be
     1. Resource representation
     2. Resource Identifier
+  * a resource can map to an empty set => references can be made to concepts before they become a reality.
+    * remember pointers in C
+  * Key features provided by this abstraction to web architecture :
+    1. provides generality without artificially distinguishing them by type / implementation.
+    2. late binding of the reference to a representation => content negotiation.
+    3. reference the concept rather than some singular representation of the concept.
    
 
     
