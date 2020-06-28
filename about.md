@@ -4,15 +4,18 @@ title: About
 ---
 
 <p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi there! These pages will cover all about RESTful architecture and HTTP. Though it will be unstructured as a whole, each page will deal with a single concept of REST or HTTP, will cover it in deep and will be linked & tagged to similar concepts.
 </p>
 
-## About BlackDoc Theme
+## About Restful 
+* Acronym for REpresentational State Transfer.
+  * REpresentation is the thing / stuff to transfer.
+* It defines how Web standards like HTTP and URI are supposed to be used.
 
-Some relevant information about this project:
+## About HTTP
+* Hypertext Transfer Protocol
+* > Just one incarnation of REST style!
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
+
+
 
