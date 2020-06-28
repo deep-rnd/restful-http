@@ -148,9 +148,25 @@ The designer
           1. capability/desire of recipient
           2. nature of the resource
       2. Representation hides behind the interface
-      3. 
+      3. Benefits of mobile object style are approximated by 
+          * sending data in a standard format
+  
+| Data Element | Modern Web Examples |
+| ----------- | ----------- |
+| resource | the intended conceptual target of a hypertext reference |
+| resource identifier | URL, URN |
+| representation | HTML document, JPEG image |
+| representation metadata  | 	media type, last-modified time |
+| resource metadata  | source link, alternates, vary |
+| control data  | if-modified-since, cache-control |
 
 #### Resources and Resource Identifier
+  * key abstraction 
+    * a document
+    * a image
+    * a temporal service (today's temperature, currency value)
+    * a collection of other resources
+    * a non virtual object (a person)
 
 #### Representation
 
