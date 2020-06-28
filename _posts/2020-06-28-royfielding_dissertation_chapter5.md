@@ -107,6 +107,8 @@ The designer
          * An optional constraint allows us to design an architecture that supports the feature in general,
          * But with the understanding that it can be disabled within some context. 
 
+* * *
+  
 ## Architectural Elements
 
 * REST is an abstraction of elements in a distributed hypermedia space.
@@ -140,16 +142,16 @@ The designer
       * less data volume 
       * no data hiding
       * sender and recipient should understand the same language
-    * REST is a hybrid of all 3
-      1. shared understanding of data and meta data
-        * REST communicates by sharing a representation of a resource
-        * In a format matching one of the evolving set of standard data types (JSON, XML, ATOM)
-        * The data type is selected dynamically, based on
-          1. capability/desire of recipient
-          2. nature of the resource
-      2. Representation hides behind the interface
-      3. Benefits of mobile object style are approximated by 
-          * sending data in a standard format
+  * REST is a hybrid of all 3
+    1. shared understanding of data and meta data
+      * REST communicates by sharing a representation of a resource
+      * In a format matching one of the evolving set of standard data types (JSON, XML, ATOM)
+      * The data type is selected dynamically, based on
+        1. capability/desire of recipient
+        2. nature of the resource
+    2. Representation hides behind the interface
+    3. Benefits of mobile object style are approximated by 
+        * sending data in a standard format
   
 | Data Element | Modern Web Examples |
 | ----------- | ----------- |
@@ -189,3 +191,6 @@ The designer
 ### Connectors
 
 ### Components
+
+* * *
+
