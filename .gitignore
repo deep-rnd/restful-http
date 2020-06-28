@@ -1,0 +1,5 @@
+#Build folder
+_site/
+
+#Files
+Gemfile.lock
