@@ -239,7 +239,22 @@ The designer
 
   * How statelessness helps connectors:
     1. less physical resources, improves scalability
-    2. parallel processing  
+    2. parallel processing (processing mechanism doesn't need to know interaction semantics) 
+    3. view and understand request in isolation
+    4. reusability of cached component
+
+  #### Client & Server Connectors
+    * Client : initiates the connection. Source.
+    * Server : listens for connections, responds to requests in order to supply access to its services.
+    * A component can include both client & server.
+
+  #### Cache Connector
+    * typically implemented within the address space of the connector that uses it.
+    * some cache are shared
+      * effective in reducing the impact of flash crowds
+    * REST attempts to balance the desire for transparency with desire for the efficient use of network
+      * It doesn't assume that absolute transparency is always required.
+    * Cachability 
 
 ### Components
 
