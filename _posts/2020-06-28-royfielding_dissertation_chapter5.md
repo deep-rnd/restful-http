@@ -200,9 +200,19 @@ The designer
   1. representation metadata
   2. resource metadata (resource information thats not specific to the representation).
 * Control data
-  1. defines the purpose of a message between componends like
+  1. defines the purpose of a message between components like
      1. action being requested.
-     2. meaning of a response.
+     2. meaning of a response (if-modified-since).
+  2. It also can:
+     1. parametrize requests
+     2. override default behavior of intermediaries (cache-control)
+     3. content negotiation
+     4. media type (data format of a representation).
+        * intended for 
+          1. human user
+          2. automated processing
+          3. both
+        * composite media type (multiple representation in a single request) 
 
 ### Connectors
 
