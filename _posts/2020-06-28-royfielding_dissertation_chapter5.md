@@ -254,7 +254,18 @@ The designer
       * effective in reducing the impact of flash crowds
     * REST attempts to balance the desire for transparency with desire for the efficient use of network
       * It doesn't assume that absolute transparency is always required.
-    * Cachability 
+    * Cacheability of a response can be determined since the interface is generic (Uniform interface)
+    * Can be overridden by control data (cache-control)
+  
+  ####  Resolver
+    * translates partial or complete resource identifier into network address information needed for inter-component communications. 
+    * DNS host name : naming authority of a resource
+
+  #### Tunnel
+    * Relays communication across a connection boundary (firewall, low-level network gateway)
+    * Some rest components can switch from active component behavior to that of a tunnel.
+      * Eg. HTTP Proxy switches to tunnel behavior in response to CONNECT method request
+        * This allows client to communicate to remote server directly using a different protocol, such as TLS 
 
 ### Components
 
