@@ -237,6 +237,10 @@ The designer
 | resolver | bind (DNS lookup library) |
 | tunnel | SOCKS, SSL after HTTP CONNECT |
 
+  * How statelessness helps connectors:
+    1. less physical resources, improves scalability
+    2. parallel processing  
+
 ### Components
 
 * * *
