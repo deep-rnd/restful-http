@@ -225,8 +225,17 @@ The designer
   4. hides communication mechanism
   5. substitutable (due to the generality of the interface)
 * Manages network communication for a component
-  * So this interface can be shared across many  
-* 
+  * information gets shared through multiple interactions (improves efficiency and responsiveness)
+
+* REST Connectors	
+
+| Connector | Modern Web Examples |
+| ----------- | ----------- |
+| client | libwww, libwww-perl |
+| server | libwww, Apache API, NSAPI |
+| cache | browser cache, Akamai cache network |
+| resolver | bind (DNS lookup library) |
+| tunnel | SOCKS, SSL after HTTP CONNECT |
 
 ### Components
 
