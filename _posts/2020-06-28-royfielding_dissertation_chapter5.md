@@ -243,31 +243,33 @@ The designer
     3. view and understand request in isolation
     4. reusability of cached component
 
-  #### Client & Server Connectors
+#### Client & Server Connectors
     * Client : initiates the connection. Source.
     * Server : listens for connections, responds to requests in order to supply access to its services.
     * A component can include both client & server.
 
-  #### Cache Connector
-    * typically implemented within the address space of the connector that uses it.
-    * some cache are shared
-      * effective in reducing the impact of flash crowds
-    * REST attempts to balance the desire for transparency with desire for the efficient use of network
-      * It doesn't assume that absolute transparency is always required.
-    * Cacheability of a response can be determined since the interface is generic (Uniform interface)
-    * Can be overridden by control data (cache-control)
+#### Cache Connector
+  * typically implemented within the address space of the connector that uses it.
+  * some cache are shared
+    * effective in reducing the impact of flash crowds
+  * REST attempts to balance the desire for transparency with desire for the efficient use of network
+    * It doesn't assume that absolute transparency is always required.
+  * Cacheability of a response can be determined since the interface is generic (Uniform interface)
+  * Can be overridden by control data (cache-control)
   
-  ####  Resolver
-    * translates partial or complete resource identifier into network address information needed for inter-component communications. 
-    * DNS host name : naming authority of a resource
+####  Resolver
+  * translates partial or complete resource identifier into network address information needed for inter-componentcommunications. 
+  * DNS host name : naming authority of a resource
 
-  #### Tunnel
-    * Relays communication across a connection boundary (firewall, low-level network gateway)
-    * Some rest components can switch from active component behavior to that of a tunnel.
-      * Eg. HTTP Proxy switches to tunnel behavior in response to CONNECT method request
-        * This allows client to communicate to remote server directly using a different protocol, such as TLS 
+#### Tunnel
+  * Relays communication across a connection boundary (firewall, low-level network gateway)
+  * Some rest components can switch from active component behavior to that of a tunnel.
+    * Eg. HTTP Proxy switches to tunnel behavior in response to CONNECT method request
+      * This allows client to communicate to remote server directly using a different protocol, such as TLS, which doesn'tallows proxies.
+      * Tunnels disappears when both ends terminate their communication. 
 
 ### Components
+
 
 * * *
 
