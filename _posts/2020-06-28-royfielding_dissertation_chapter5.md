@@ -212,7 +212,10 @@ The designer
           1. human user
           2. automated processing
           3. both
-        * composite media type (multiple representation in a single request) 
+        * composite media type (multiple representation in a single request)
+        * can impact user perceived performance of distributed hypermedia system
+          1. If data must be received entirely before processing
+          2. incremental rendering (HTML)
 
 ### Connectors
 
