@@ -52,10 +52,10 @@ The designer
      * Reliability
        * easy recovery from partial failure.
        * stateless applications are a prerequisite to auto scaling and immutable infrastructure since any request can be handled by available computing resources
-     * Design trade-off
-       * decrease network performance 
-       * reduces the server's control over consistent application behavior.
-         *  server's dependent on the correct implementation of semantics across multiple client versions
+   * Design trade-off
+     * decrease network performance 
+     * reduces the server's control over consistent application behavior.
+       *  server's dependent on the correct implementation of semantics across multiple client versions
    
 4. Cache
    * to improve network efficiency, scalability, and user-perceived performance
@@ -147,8 +147,8 @@ The designer
       * REST communicates by sharing a representation of a resource
       * In a format matching one of the evolving set of standard data types (JSON, XML, ATOM)
       * The data type is selected dynamically, based on
-        1. capability/desire of recipient
-        2. nature of the resource
+          1. capability/desire of recipient
+          2. nature of the resource
     2. Representation hides behind the interface
     3. Benefits of mobile object style are approximated by 
         * sending data in a standard format
@@ -187,6 +187,8 @@ The designer
   * Naturally, the quality of an identifier is often proportional to the amount of money spent to retain its validity, which leads to broken links as ephemeral (or poorly supported) information moves or disappears over time.
    
 #### Representation
+* Actions are performed on resources using representations of the resource.
+* 
 
 ### Connectors
 
