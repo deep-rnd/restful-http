@@ -188,7 +188,21 @@ The designer
    
 #### Representation
 * Actions are performed on resources using representations of the resource.
-* 
+* Representations are 
+  1. used to capture current or intended state of resource.
+  2. transferred between component.
+  3. a sequence of bytes + representation metadata to represent those bytes.
+  4. consists of data + metadata + occasionally, metadata of metadata (for verifying message integrity).
+* Metadata
+  1. Name value pair
+  2. name = a standard that defines the values structure and semantics.
+* Response includes :
+  1. representation metadata
+  2. resource metadata (resource information thats not specific to the representation).
+* Control data
+  1. defines the purpose of a message between componends like
+     1. action being requested.
+     2. meaning of a response.
 
 ### Connectors
 
