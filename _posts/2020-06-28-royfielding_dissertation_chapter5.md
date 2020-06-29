@@ -218,6 +218,15 @@ The designer
           2. incremental rendering (HTML)
 
 ### Connectors
+* abstract interface 
+  1. for component communication.
+  2. simplicity by clean separation of concern.
+  3. hides implementation details
+  4. hides communication mechanism
+  5. substitutable (due to the generality of the interface)
+* Manages network communication for a component
+  * So this interface can be shared across many  
+* 
 
 ### Components
 
